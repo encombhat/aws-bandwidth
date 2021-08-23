@@ -2,6 +2,12 @@
 
 A terraform script that spawns 100 EC2 instances to test AWS's bandwidth pricing.
 
+**Warning! This script consumes ~1TB bandwidth!**
+That is like 100 USD according to AWS.
+Don't use this script for fun!
+
+Alternatively, change the total number of instances in `main.tf`.
+
 To initiate, execute
 
 ```sh
